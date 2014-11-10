@@ -24,7 +24,7 @@ import java.net.URL;
 @UsingSpring(resources = "classpath:spring-config.xml")
 
 public abstract class BaseJBehaveValidator extends JUnitStories {
-//    BaseJBehaveValidator() { useConfiguration(configuration()); }
+    BaseJBehaveValidator() { useConfiguration(configuration()); }
 
     private URL getStoryUrl() {
         URL storyURL = null;
