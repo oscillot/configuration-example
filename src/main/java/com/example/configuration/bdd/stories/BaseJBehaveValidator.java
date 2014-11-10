@@ -14,11 +14,9 @@ import org.jbehave.core.junit.spring.SpringAnnotatedEmbedderRunner;
 import org.jbehave.core.reporters.Format;
 import org.jbehave.core.reporters.StoryReporterBuilder;
 import org.junit.runner.RunWith;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.List;
 
 @RunWith(SpringAnnotatedEmbedderRunner.class)
 @Configure
@@ -26,9 +24,7 @@ import java.util.List;
 @UsingSpring(resources = "classpath:spring-config.xml")
 
 public abstract class BaseJBehaveValidator extends JUnitStories {
-    BaseJBehaveValidator() {
-        useConfiguration(configuration());
-    }
+//    BaseJBehaveValidator() { useConfiguration(configuration()); }
 
     private URL getStoryUrl() {
         URL storyURL = null;

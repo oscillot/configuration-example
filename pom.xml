@@ -116,7 +116,7 @@
                     <testSourceDirectory>${basedir}/src/main/java/</testSourceDirectory>
                     <testClassesDirectory>${project.build.directory}/classes/</testClassesDirectory>
                     <includes>
-                        <include>**/*.java</include>
+                        <include>**/ExampleJBehaveValidator.java</include>
                     </includes>
                 </configuration>
             </plugin>
@@ -133,7 +133,7 @@
                         <phase>test</phase>
                         <configuration>
                             <includes>
-                                <include>**/*.java</include>
+                                <include>**/ExampleJBehaveValidator.java</include>
                             </includes>
                             <ignoreFailureInStories>true</ignoreFailureInStories>
                             <ignoreFailureInView>false</ignoreFailureInView>
