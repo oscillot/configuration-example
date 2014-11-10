@@ -13,8 +13,9 @@
         <!-- 3.9.1 is the last one which works -->
         <!--<jbehave.spring.version>3.9.1</jbehave.spring.version>-->
         <!-- None of these versions work -->
+        <jbehave.spring.version>3.9.2</jbehave.spring.version>
         <!--<jbehave.spring.version>3.9.3</jbehave.spring.version>-->
-        <jbehave.spring.version>3.9.5</jbehave.spring.version>
+        <!--<jbehave.spring.version>3.9.5</jbehave.spring.version>-->
         <!--<jbehave.spring.version>4.0-beta-11</jbehave.spring.version>-->
         <jbehave-site-resources.version>3.1.1</jbehave-site-resources.version>
 
